@@ -9,7 +9,7 @@ pipeline
                         stage("checkout")
                         {
                                 steps{
-                                       git url:''
+                                       git url:'https://github.com/arksnraju123/DevOpsProject.git'
                                 }
                         }
                 }
